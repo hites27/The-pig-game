@@ -64,10 +64,10 @@ btnHold.addEventListener('click', function () {
     console.log('done');
 
     document
-      .querySelector(`player--${activePlayer}`)
+      .querySelector(`.player--${activePlayer}`)
       .classList.add('player--winner');
     document
-      .querySelector(`player--${activePlayer}`)
+      .querySelector(`.player--${activePlayer}`)
       .classList.remove('player--active');
   } else {
     //3.Switch player
